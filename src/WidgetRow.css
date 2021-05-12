@@ -1,0 +1,20 @@
+.widgetRow{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.widgetRow:hover{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.widgetRow > h4{
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.widgetRow > .MuiSvgIcon-root{
+    font-size: small;
+}
